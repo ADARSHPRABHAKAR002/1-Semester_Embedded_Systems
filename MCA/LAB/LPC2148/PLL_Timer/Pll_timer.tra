@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'Pll_timer.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"pll_init.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "timer.o" "delay.o" "pll_init.o" 
+--strict --scatter "Pll_timer.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Pll_timer.map" -o Pll_timer.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Pll_timer.axf'
+### ADS-LD Command File: 'Pll_timer.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Pll_timer.lnp', Handle=0x00000BD0
+### Writing '.lnp' file
+### ADS-LD Command file 'Pll_timer.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

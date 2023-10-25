@@ -1,0 +1,4 @@
+Dependencies for Project 'blink_LeD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\delay_LED.c)(0x64F581DF)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "delay_led.o" --omf_browse "delay_led.crf" --depend "delay_led.d")
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
