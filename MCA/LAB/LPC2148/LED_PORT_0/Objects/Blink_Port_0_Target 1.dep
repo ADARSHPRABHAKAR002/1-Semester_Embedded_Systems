@@ -1,4 +1,0 @@
-Dependencies for Project 'Blink_Port_0', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: <unknown>
-F (.\Startup.s)(0x559CFDE8)()
-F (.\blinky_port_0.c)(0x64F56A1C)()

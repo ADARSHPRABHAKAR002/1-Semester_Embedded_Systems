@@ -1,14 +1,0 @@
-Dependencies for Project 'Pll_timer', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
-F (.\timer.c)(0x652398CD)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "timer.o" --omf_browse "timer.crf" --depend "timer.d")
-I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
-I (Timer_h.h)(0x652398EE)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
-I (pll_init.h)(0x652398F7)
-F (.\delay.c)(0x652398FB)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "delay.o" --omf_browse "delay.crf" --depend "delay.d")
-I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
-I (Timer_h.h)(0x652398EE)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0F5AC)
-F (.\pll_init.c)(0x652398D2)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "pll_init.o" --omf_browse "pll_init.crf" --depend "pll_init.d")
-I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
-I (pll_init.h)(0x652398F7)
