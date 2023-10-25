@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/231039010/one_bit_adder/one_bit_adder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/231039010/one_bit_adder/one_bit_adder.srcs/sim_1/new/stimulus.v,1692244571,verilog,,,,stimulus,,,,,,,,
+D:/231039010/one_bit_adder/one_bit_adder.srcs/sim_1/new/stimulus_2.v,1692244257,verilog,,,,stimulus_2,,,,,,,,
+D:/231039010/one_bit_adder/one_bit_adder.srcs/sources_1/new/one_bit_adder.v,1692243629,verilog,,D:/231039010/one_bit_adder/one_bit_adder.srcs/sim_1/new/stimulus.v,,half_adder;one_bit_adder,,,,,,,,

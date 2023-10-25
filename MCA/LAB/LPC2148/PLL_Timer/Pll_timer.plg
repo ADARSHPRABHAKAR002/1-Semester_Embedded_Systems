@@ -1,0 +1,223 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\ME\1ST SEMESTER\2_Microcontroller and Its Applications\LAB\LPC2148\PLL_Timer\Pll_timer.uvproj
+Project File Date:  10/09/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+timer.c(3): error:  #5: cannot open source input file "Timer_h.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(6): warning:  #1-D: last line of file ends without a newline
+timer.c(17): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(6): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(6): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(6): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(6): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(7): error:  #20: identifier "unit32_t" is undefined
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Build target 'Target 1'
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Build target 'Target 1'
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Build target 'Target 1'
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Build target 'Target 1'
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol delay_ms (referred from timer.o).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=768 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Pll_timer.axf: Error: L6218E: Undefined symbol PLL_Config (referred from timer.o).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+compiling delay.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+delay.c(4): error:  #20: identifier "unit32_t" is undefined
+delay.c(16): error:  #20: identifier "unit32_t" is undefined
+delay.c(27): warning:  #1-D: last line of file ends without a newline
+compiling pll_init.c...
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+pll_init.c(9): error:  #18: expected a ")"
+pll_init.c(15): warning:  #12-D: parsing restarts here after previous syntax error
+pll_init.c(15): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling delay.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+delay.c(27): warning:  #1-D: last line of file ends without a newline
+compiling pll_init.c...
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+pll_init.c(9): error:  #18: expected a ")"
+pll_init.c(15): warning:  #12-D: parsing restarts here after previous syntax error
+pll_init.c(15): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling pll_init.c...
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=876 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+timer.c(17): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1076 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 4 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling timer.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+compiling delay.c...
+Timer_h.h(10): warning:  #1-D: last line of file ends without a newline
+compiling pll_init.c...
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1076 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling timer.c...
+pll_init.h(4): warning:  #1-D: last line of file ends without a newline
+timer.c(16): warning:  #111-D: statement is unreachable
+compiling delay.c...
+linking...
+Program Size: Code=1076 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling timer.c...
+timer.c(16): warning:  #111-D: statement is unreachable
+compiling delay.c...
+compiling pll_init.c...
+linking...
+Program Size: Code=1076 RO-data=16 RW-data=0 ZI-data=1256  
+"Pll_timer.axf" - 0 Error(s), 1 Warning(s).

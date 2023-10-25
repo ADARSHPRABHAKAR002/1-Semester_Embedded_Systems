@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../exor_gate.srcs/sources_1/new/exor_gate.v" \
+"../../../../exor_gate.srcs/sim_1/new/stimulus.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
