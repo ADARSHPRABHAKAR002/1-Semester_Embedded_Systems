@@ -132,6 +132,7 @@ void calculate(List *list)
         {
             list->profit=(temp->pi/temp->wi)*list->max+list->profit;
             list->max=0;
+            break;
             
 
            
