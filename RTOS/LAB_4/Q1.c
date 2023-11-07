@@ -24,7 +24,7 @@ void *computeSum(void *param) {
     }
     printf("Thread ID: %ld\n", pthread_self());
     printf("Sum of first %d numbers: %d\n", data->upperLimit, sum);
-    pthread_exit(NULL);
+    pthread_exit(NULL); 
 }
 
 int main() {
