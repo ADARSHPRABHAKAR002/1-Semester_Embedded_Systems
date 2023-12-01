@@ -15,7 +15,7 @@ contents to the screen.*/
 
 int main() {
     key_t key = ftok("shared_memory_key", 65); // Generate a key for the shared memory segment
-
+    int i=0;
     // Create a shared memory segment of adequate length (assuming 36 bytes for 0 to 9 and a to z)
     int shmid = shmget(key, 36, IPC_CREAT | 0666);
     if (shmid == -1) {

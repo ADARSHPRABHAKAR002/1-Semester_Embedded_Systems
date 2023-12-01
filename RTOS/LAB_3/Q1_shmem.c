@@ -18,7 +18,7 @@ once again to the screen. Observe the output.
 
 int main() {
     key_t key = ftok("shared_memory_key", 65); // Generate a key for the shared memory segment
-
+    int i=0;
     // Create a shared memory segment of length 100 bytes
     int shmid = shmget(key, 100, IPC_CREAT | 0666);
     if (shmid == -1) {
@@ -30,9 +30,13 @@ int main() {
     char *shared_memory = (char *)shmat(shmid, NULL, 0);
 
     // Write 'A' to 'Z' to the shared memory segment
-    for (char c = 'A'; c <= 'Z'; ++c) {
-        shared_memory[c - 'A'] = c;
+    for (int i=0; i<10;i++) {
+        shared_memory[i] = i;
     }
+    for(i,char c='A';c<='Z';i++,c++)
+        {
+                shared_memory[i]=c;
+        }
 
     // Display the contents of the shared memory segment before case conversion
     printf("Contents of shared memory before case conversion: %s\n", shared_memory);

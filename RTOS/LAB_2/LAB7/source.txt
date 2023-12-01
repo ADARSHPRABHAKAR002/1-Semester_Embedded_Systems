@@ -1,1 +1,10 @@
-abcdefgh
+after rewriting to the file if any add instruction comes it should be rewritten as "output sum;" and in the lext line "assign sum= input value generated append any latter to make as proper available + a
+
+
+
+	add	fp, sp, #0
+	ldr	r2, [fp, #-8]
+	ldr	r3, [fp, #-12]
+	add	r3, r2, r3
+	add	sp, fp, #0
+	ldr	fp, [sp], #4
